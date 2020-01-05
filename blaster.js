@@ -58,7 +58,7 @@ window.addEventListener('DOMContentLoaded', (event) =>{
     let majig = document.getElementById("dog-image-container");
     let eaten = document.getElementById("eaten");
     eaten.innerText = "0"
-    let tutorial_canvas = document.getElementById("tutorial");
+    let tutorial_canvas = document.getElementById("game");
     let tutorial_canvas_context = tutorial_canvas.getContext('2d');
 
     tutorial_canvas.style.background =  "#000000"
